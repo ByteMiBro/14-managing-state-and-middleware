@@ -13,4 +13,5 @@ page('/author/:authorName', app.articleController.loadByAuthor, app.articleContr
 page('/category/:categoryName', app.articleController.loadByCategory, app.articleController.index);
 
 // COMMENT: What is this function doing?
+//Wired on here to start the page.js which is a page.js which allows us to fire off new page stuff without actually leaving the page and more.
 page();
